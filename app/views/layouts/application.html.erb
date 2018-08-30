@@ -10,6 +10,21 @@
   </head>
 
   <body>
+    <nav>
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "About", simple_pages_about_path %></li>
+        <li><%= link_to "Contact", simple_pages_contact_path %></li>
+        <!-- link_to  -  method to create link -->
+        <!--  _path must be allways on end of link itself-->
+      </ul>
+    </nav>
+
     <%= yield %>
+
+    <footer>
+      &copy; 2018 Mulligatawny Soup
+    </footer>
+
   </body>
 </html>
