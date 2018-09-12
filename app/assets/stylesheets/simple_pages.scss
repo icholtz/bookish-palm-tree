@@ -1,8 +1,14 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1 { color: #815B28 }
+h1, h2 {
+  color: #815B28;
+  text-shadow: black 2px 1px;
+}
+
 html { background-color: Gainsboro }
+body { background-image: url(kitchen.jpg) }
+
 
 .navbar {
   color: #562f13;
@@ -22,6 +28,26 @@ html { background-color: Gainsboro }
 }
 
 ul li:nth-of-type(3) { margin-right: 2em }
+
+.container {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.test_col {
+  display: inline-block;
+}
+
+.soup-image {
+  border-radius: 76px;
+}
+
+.about_us, .contact_info {
+  background: rgba(213, 165, 143, 0.7);
+  padding: 23px;
+  width: 60%;
+  border-radius: 30px;
+  font-size: 1.5em;
+}
 
 footer {
   background: linear-gradient(white, #815B28);
