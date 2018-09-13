@@ -6,11 +6,13 @@ h1, h2 {
   text-shadow: black 2px 1px;
 }
 
-html { background-color: Gainsboro }
-body { background-image: url(kitchen.jpg) }
+body {
+  background-image: url(chilli.jpg);
+  background-size: cover;
+}
 
 
-.navbar {
+.my_navbar {
   color: #562f13;
   background: #815B28;
   width: 100%;
@@ -27,7 +29,7 @@ body { background-image: url(kitchen.jpg) }
   color: gold;
 }
 
-ul li:nth-of-type(3) { margin-right: 2em }
+ul li:nth-of-type(4) { margin-right: 2em }
 
 .container {
   margin-left: 2em;
@@ -51,8 +53,10 @@ ul li:nth-of-type(3) { margin-right: 2em }
 
 footer {
   background: linear-gradient(white, #815B28);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
 }
 
 .copyright { margin-top: -35px; }
-
-#empty-space { height:  400px; }

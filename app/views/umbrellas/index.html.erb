@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Umbrellas</h1>
+
+<table class="table table-bordered table-hover table-responsive">
+  <thead class="thead-dark">
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Image url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @umbrellas.each do |umbrella| %>
+      <tr>
+        <td><%= umbrella.name %></td>
+        <td><%= umbrella.description %></td>
+        <td><%= umbrella.image_url %></td>
+        <td><%= link_to 'Show', umbrella %></td>
+        <td><%= link_to 'Edit', edit_umbrella_path(umbrella) %></td>
+        <td><%= link_to 'Destroy', umbrella, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<button>
+  <%= link_to 'New Umbrella', new_umbrella_path %>
+</button>
