@@ -15,5 +15,25 @@
   <%= @umbrella.image_url %>
 </p>
 
+<p>
+  <strong>Color:</strong>
+  <%= @umbrella.color %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @umbrella.size %>
+</p>
+
+<p>
+  <strong>Material:</strong>
+  <%= @umbrella.material %>
+</p>
+
+<p>
+  <strong>Price: £ </strong>
+  <%= @umbrella.price %>
+</p>
+
 <%= link_to 'Edit', edit_umbrella_path(@umbrella) %> |
 <%= link_to 'Back', umbrellas_path %>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_13_120250) do
+ActiveRecord::Schema.define(version: 2018_09_16_083651) do
 
   create_table "umbrellas", force: :cascade do |t|
     t.string "name"
@@ -18,6 +18,10 @@ ActiveRecord::Schema.define(version: 2018_09_13_120250) do
     t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "color"
+    t.string "size"
+    t.string "material"
+    t.integer "price"
   end
 
 end

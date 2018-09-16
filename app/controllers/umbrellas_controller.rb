@@ -69,6 +69,6 @@ class UmbrellasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def umbrella_params
-      params.require(:umbrella).permit(:name, :description, :image_url)
+      params.require(:umbrella).permit(:name, :description, :image_url, :color, :size, :material, :price)
     end
 end
