@@ -32,7 +32,7 @@
 
 <p>
   <strong>Price: £ </strong>
-  <%= @umbrella.price %>
+  <%= @umbrella.price.to_f %>
 </p>
 
 <%= link_to 'Edit', edit_umbrella_path(@umbrella) %> |

@@ -2,39 +2,36 @@
 
 <h1>Umbrellas</h1>
 
-<div class"display_of_umbrellas">
-  <div class="row">
-    <div class="col-sm">
-      <a href="#"><h1>Umbrella 1</h1></a>
-      <img src="https://www.parasolumbrellas.com.au/wp-content/uploads/2014/06/Clifton-Classic-White-Open-LR.jpg">
-      <p>Pretty cool umbrella<p>
-      <strong>£ 38</strong>
-    </div> <!-- end col -->
-    <div class="col-sm">
-      <a href="#"><h1>Umbrella 1</h1></a>
-      <img src="https://www.parasolumbrellas.com.au/wp-content/uploads/2014/06/Clifton-Classic-White-Open-LR.jpg">
-      <p>Pretty cool umbrella<p>
-      <strong>£ 38</strong>
-    </div> <!-- end col -->
-  </div> <!-- row end -->
-</div> <!--end of display of umbrellas -->
+
 
 <div class"ruby_umbrellas">
   <div class="row">
     <% @umbrellas.each do |umbrella| %>
-      <div class="col-sm">
+      <div class="col-sm-12 col-md-6 col-lg-4">
         <h2><%= umbrella.name %></h2>
-        <img src="https://www.parasolumbrellas.com.au/wp-content/uploads/2014/06/Clifton-Classic-White-Open-LR.jpg">
+        <%= image_tag(umbrella.image_url, class: "img-fluid img-thumbnail") %>
         <p><%= umbrella.description %></p>
         <p>Color: <%= umbrella.color %></p>
         <p>Price: £<%= umbrella.price.to_f %></p>
+        <%= link_to 'Show', umbrella %>
+        <%= link_to 'Edit', edit_umbrella_path(umbrella) %>
+        <%= link_to 'Destroy', umbrella, method: :delete, data: { confirm: 'Are you sure?' } %>
       </div>
     <% end %>
   </div> <!-- end row -->
 </div><!-- end ruby umbrellas -->
-
-
-<table class="table table-bordered table-hover table-responsive">
+<button class="btn-lg" id="rain_button">
+  <%= link_to 'New Umbrella', new_umbrella_path %>
+</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- <table class="table table-bordered table-hover table-responsive">
   <thead class="thead-dark">
     <tr>
       <th>Name</th>
@@ -62,10 +59,4 @@
       </tr>
     <% end %>
   </tbody>
-</table>
-
-<br>
-
-<button class="btn-lg" id="rain_button">
-  <%= link_to 'New Umbrella', new_umbrella_path %>
-</button>
+</table> -->
