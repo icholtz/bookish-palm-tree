@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2018_09_16_083651) do
     t.string "color"
     t.string "size"
     t.string "material"
-    t.integer "price"
+    t.decimal "price"
   end
 
 end
