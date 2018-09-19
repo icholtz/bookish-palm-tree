@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Umbrellas</h1>
-
+<%= link_to 'hello' %>
 <div class"ruby_umbrellas">
   <div class="row">
     <% @umbrellas.each do |umbrella| %>
@@ -17,37 +17,10 @@
       </div>
     <% end %>
   </div> <!-- end row -->
-</div><!-- end ruby umbrellas -->
+</div><!-- end ruby_umbrellas -->
+
+<p class= "osel"> <%= Umbrella.all[1] %></p>  <!-- STILL WORKING ON IT -->
+
 <button class="btn-lg" id="rain_button">
   <%= link_to 'New Umbrella', new_umbrella_path %>
 </button>
-
-<!-- <table class="table table-bordered table-hover table-responsive">
-  <thead class="thead-dark">
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Image url</th>
-      <th>Color</th>
-      <th>Size</th>
-      <th>Material</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @umbrellas.each do |umbrella| %>
-      <tr>
-        <td><%= umbrella.name %></td>
-        <td><%= umbrella.description %></td>
-        <td><%= umbrella.image_url %></td>
-        <td><%= umbrella.color %></td>
-        <td><%= umbrella.size %></td>
-        <td><%= umbrella.material %></td>
-        <td><%= link_to 'Show', umbrella %></td>
-        <td><%= link_to 'Edit', edit_umbrella_path(umbrella) %></td>
-        <td><%= link_to 'Destroy', umbrella, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table> -->

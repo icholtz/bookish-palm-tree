@@ -1,6 +1,8 @@
 class UmbrellasController < ApplicationController
-  before_action :set_umbrella, only: [:show, :edit, :update, :destroy]
+  before_action :set_umbrella, only: [:show, :edit, :update, :destroy, :hello]
 
+  def hello
+  end
   # GET /umbrellas
   # GET /umbrellas.json
   def index  # corresponds to index.html.erb in views/products folder
@@ -9,7 +11,7 @@ class UmbrellasController < ApplicationController
 
   # GET /umbrellas/1
   # GET /umbrellas/1.json
-  def show
+  def show # methods in controller are called ACTIONS
   end
 
   # GET /umbrellas/new
