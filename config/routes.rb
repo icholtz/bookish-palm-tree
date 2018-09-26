@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  get 'umbrellas/gutentag'
+
   resources :umbrellas
-  resources :orders, only: [:index, :show, :create, :destroy]
+  resources :orders, only: [:index, :show, :create, :destroy] #limited to ONLY specific actions
+  resources :hello
+  resources :gutentag
 
   get 'simple_pages/about'
   get 'simple_pages/contact'

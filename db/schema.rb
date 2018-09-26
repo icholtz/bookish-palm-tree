@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_16_083651) do
+ActiveRecord::Schema.define(version: 2018_09_23_100435) do
+
+  create_table "orders", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "umbrella_id"
+    t.float "total"
+    t.index ["umbrella_id"], name: "index_orders_on_umbrella_id"
+    t.index ["user_id"], name: "index_orders_on_user_id"
+  end
 
   create_table "umbrellas", force: :cascade do |t|
     t.string "name"

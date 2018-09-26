@@ -12,6 +12,11 @@ table {
 // .2nd-umbrella {
 //   background-color: black;
 // }
+
+.row:nth-of-type(2) div {
+  background-color: green;
+}
+
 .osel {
   background-color: red;
 }

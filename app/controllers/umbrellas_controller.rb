@@ -1,7 +1,9 @@
 class UmbrellasController < ApplicationController
-  before_action :set_umbrella, only: [:show, :edit, :update, :destroy, :hello]
+  before_action :set_umbrella, only: [:show, :edit, :update, :destroy]
 
-  def hello
+  # GET /umbrellas
+  # GET /umbrellas.json
+  def gutentag
   end
   # GET /umbrellas
   # GET /umbrellas.json

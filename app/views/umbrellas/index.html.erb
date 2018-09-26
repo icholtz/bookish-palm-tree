@@ -1,16 +1,20 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Umbrellas</h1>
-<%= link_to 'hello' %>
+
+<h3><%= link_to 'HELLO??', simple_pages_hello_path %></h3>
+<h3><%= link_to '¿GUTEN TAG?', umbrellas_gutentag_path %></h3>
+
 <div class"ruby_umbrellas">
   <div class="row">
     <% @umbrellas.each do |umbrella| %>
-      <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 umbrella-thumbnail">
         <h2><%= umbrella.name %></h2>
-        <%= image_tag(umbrella.image_url, class: "img-fluid img-thumbnail") %>
+        <%= image_tag(umbrella.image_url, class: "img-fluid img-thumbnail")  %>
         <p><%= umbrella.description %></p>
         <p>Color: <%= umbrella.color %></p>
-        <p>Price: £<%= umbrella.price.to_f %></p>
+        <p>Material: <%= umbrella.material %></p>
+        <p>Price: £<%= umbrella.price %></p>
         <%= link_to 'Show', umbrella %>
         <%= link_to 'Edit', edit_umbrella_path(umbrella) %>
         <%= link_to 'Destroy', umbrella, method: :delete, data: { confirm: 'Are you sure?' } %>
@@ -19,7 +23,7 @@
   </div> <!-- end row -->
 </div><!-- end ruby_umbrellas -->
 
-<p class= "osel"> <%= Umbrella.all[1] %></p>  <!-- STILL WORKING ON IT -->
+<p class= "osel"> <%= @umbrellas[1].name %></p>  <!-- STILL WORKING ON IT -->
 
 <button class="btn-lg" id="rain_button">
   <%= link_to 'New Umbrella', new_umbrella_path %>
