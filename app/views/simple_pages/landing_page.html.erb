@@ -4,12 +4,8 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
 
-    <% @umbrellas.each_with_index do |x, i| %>
-      <li data-target="#carouselExampleIndicators" data-slide-to="<%= i %>"></li>
-    <% end %>
 
   </ol>
-
 
   <div class="carousel-inner">
     <% @umbrellas.each do |umbrella| %>
