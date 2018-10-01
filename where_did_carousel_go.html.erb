@@ -1,0 +1,30 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+    <% @umbrellas.each_with_index do |x, i| %>
+      <li data-target="#carouselExampleIndicators" data-slide-to="<%= i %>"></li>
+    <% end %>
+
+  </ol>
+
+
+  <div class="carousel-inner">
+    <% @umbrellas.each do |umbrella| %>
+    <div class="carousel-item<%= " active" if umbrella == @umbrellas.first %>">
+      <%= image_tag(umbrella.image_url) %>
+      <div class="carousel-caption d-none d-md-block">
+        <h5><%= umbrella.name %></h5>
+      </div>
+    </div>
+    <% end %>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
