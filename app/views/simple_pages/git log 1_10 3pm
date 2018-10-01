@@ -1,0 +1,192 @@
+* [33mcommit fe8894b4b5e5310e43d5f9c31821c6ac79f0367e[m[33m ([m[1;36mHEAD -> [m[1;32mostrich[m[33m, [m[1;31morigin/ostrich[m[33m)[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Mon Oct 1 15:15:56 2018 +0100
+[31m|[m 
+[31m|[m     removed carousel
+[31m|[m 
+* [33mcommit 44ec86efe981bd006baada466fde92aabe3457da[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Mon Oct 1 15:07:48 2018 +0100
+[31m|[m 
+[31m|[m     4.5 fixing carousel
+[31m|[m 
+* [33mcommit 35c2c176c90e38677cf365ba7c5406b1dd28d112[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Mon Oct 1 13:56:24 2018 +0100
+[31m|[m 
+[31m|[m     test 3 - figuring out branching
+[31m|[m 
+* [33mcommit 7bebeb63af4c322d0f226f8b5dab76c52b74ead4[m[33m ([m[1;31morigin/showme[m[33m, [m[1;31mheroku/master[m[33m, [m[1;32mshowme[m[33m, [m[1;32mmaster[m[33m)[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Mon Oct 1 13:48:48 2018 +0100
+[31m|[m 
+[31m|[m     another test
+[31m|[m 
+* [33mcommit 8be8c24f2c5821d6d7beed1a797affb3d9e55e0e[m[33m ([m[1;31morigin/master[m[33m)[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Mon Oct 1 13:06:49 2018 +0100
+[31m|[m 
+[31m|[m     branching testing
+[31m|[m 
+* [33mcommit 007f551c43cf1e4424cdc049a47cb9967ba0637d[m[33m ([m[1;31morigin/testing_carousel[m[33m, [m[1;32mtesting_carousel[m[33m)[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Fri Sep 28 16:37:06 2018 +0100
+[31m|[m 
+[31m|[m     4.5 parial views
+[31m|[m 
+* [33mcommit 2ee6d820229cab99eacbefe083f21f1533e9b553[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Sep 26 13:41:59 2018 +0100
+[31m|[m 
+[31m|[m     4.4 creating orders model
+[31m|[m 
+* [33mcommit d8a1d39e76abfffc39e60fc5f68c8aff93d21901[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Sep 19 14:57:20 2018 +0100
+[31m|[m 
+[31m|[m     4.3 controller manualy created
+[31m|[m 
+* [33mcommit 948fb669975b9e96bcee05979a6e205042dec2df[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Mon Sep 17 13:18:39 2018 +0100
+[31m|[m 
+[31m|[m     4.2 product page price and styling
+[31m|[m 
+* [33mcommit 55fc7c199f9fe8157f1faf3b8c2e019c7d376dd6[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Sun Sep 16 12:14:35 2018 +0100
+[31m|[m 
+[31m|[m     4.2 styling product collumns
+[31m|[m 
+* [33mcommit b75f99ea9a8afa07263feac5a7d23ccbc58c7713[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Sun Sep 16 10:09:00 2018 +0100
+[31m|[m 
+[31m|[m     4.2 styiling umbrellas database
+[31m|[m 
+* [33mcommit d42103731f36a9a038f3aea5a1b2afc8ae0c25ea[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Thu Sep 13 16:49:06 2018 +0100
+[31m|[m 
+[31m|[m     4.1 build scaffolding, added project page
+[31m|[m 
+* [33mcommit a7c0440d2aed7c2619d2bfca37a2cb8cbbcaffbd[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Sep 12 16:31:07 2018 +0100
+[31m|[m 
+[31m|[m     3.10 background image
+[31m|[m 
+* [33mcommit 5708c687747e8128a7b0f63b597f7d2365abc29a[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Sep 12 16:22:38 2018 +0100
+[31m|[m 
+[31m|[m     3.10 background image
+[31m|[m 
+* [33mcommit 56531631beebaa35b869748f1169b5c02493628a[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Sep 12 16:20:42 2018 +0100
+[31m|[m 
+[31m|[m     3.10 adding some styling
+[31m|[m 
+* [33mcommit 7ecb0c20cc1b2053c3a93b366a7c8f53ba70cf7f[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Sep 12 15:50:08 2018 +0100
+[31m|[m 
+[31m|[m     some styling to all pages
+[31m|[m 
+* [33mcommit ea3cba57eb5c902d019e6abb36f5527d80ebb85e[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Fri Sep 7 14:31:44 2018 +0100
+[31m|[m 
+[31m|[m     getting ready heroku for first time
+[31m|[m 
+* [33mcommit 0aca378a545a6602e7fd6ec0da4437412011eb2f[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Fri Sep 7 13:08:04 2018 +0100
+[31m|[m 
+[31m|[m     heroku prepare
+[31m|[m 
+* [33mcommit d9162f038577629a1fcb5ef2d6310779047e7aa6[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Thu Sep 6 15:30:14 2018 +0100
+[31m|[m 
+[31m|[m     3.10 preparing for Heroku
+[31m|[m 
+* [33mcommit affa77a07c48b8d9e70d2391520e18394d8b9840[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Thu Sep 6 14:01:49 2018 +0100
+[31m|[m 
+[31m|[m     3.9 added navbar, footer nad pic
+[31m|[m 
+* [33mcommit 6c708389e67b4805f70a6bc96b8d06874a40d269[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Thu Sep 6 13:48:27 2018 +0100
+[31m|[m 
+[31m|[m     "3.9 Added Navbar, footer and some styling"
+[31m|[m 
+* [33mcommit 38eae46781fed90c783b3ac5b5ae08b6be800d23[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Thu Aug 30 16:40:15 2018 +0100
+[31m|[m 
+[31m|[m     app/controllers/simple_pages_controller.rb
+[31m|[m 
+* [33mcommit 415fe217e888f87400c5d9a5fddce747a039efe4[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Thu Aug 30 12:42:51 2018 +0100
+[31m|[m 
+[31m|[m     3.8 Created simple_pages
+[31m|[m 
+* [33mcommit 39041dd33d76da858e475d46472e0ec2c2f36a40[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Aug 29 15:59:41 2018 +0100
+[31m|[m 
+[31m|[m     3.7 removed test.txt from gitignore
+[31m|[m 
+* [33mcommit d89fb412e7e99ef61088ea81441824c888fb15b1[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Aug 29 14:21:01 2018 +0100
+[31m|[m 
+[31m|[m     3.7 testing .gitignore
+[31m|[m 
+* [33mcommit 33efe858c927f9b77c321d009aaf49bba6a41ed9[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Aug 29 14:15:47 2018 +0100
+[31m|[m 
+[31m|[m     3.7 updated gitignore
+[31m|[m 
+* [33mcommit 44419b19ac969ef7195a9748a6434a6e52c9849d[m
+[31m|[m Author: Icholtz <40067972+icholtz@users.noreply.github.com>
+[31m|[m Date:   Wed Aug 29 14:00:14 2018 +0100
+[31m|[m 
+[31m|[m     Update test.txt
+[31m|[m 
+* [33mcommit 7147283ba15091dccdae749e80eaf946ef087f6c[m
+[31m|[m Author: Icholtz <hatt23@centrum.cz>
+[31m|[m Date:   Wed Aug 29 13:58:37 2018 +0100
+[31m|[m 
+[31m|[m     3.7 added simple test txt file
+[31m|[m   
+*   [33mcommit 53cf8607f9754f98b82d4aa440e8df4f65ff8086[m
+[32m|[m[33m\[m  Merge: a5101ca c264d44
+[32m|[m [33m|[m Author: Icholtz <hatt23@centrum.cz>
+[32m|[m [33m|[m Date:   Wed Aug 29 13:25:38 2018 +0100
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     Merge branch 'master' of https://github.com/icholtz/bookish-palm-tree
+[32m|[m [33m|[m 
+[32m|[m * [33mcommit c264d446e7d05997d3e84f2e0dcb4a987b7cf67b[m
+[32m|[m [33m|[m Author: Icholtz <40067972+icholtz@users.noreply.github.com>
+[32m|[m [33m|[m Date:   Wed Aug 29 12:58:44 2018 +0100
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     Set theme jekyll-theme-merlot
+[32m|[m [33m|[m 
+* [33m|[m [33mcommit a5101ca174610292cd9dc853d7f9a95130826dd4[m
+[33m|[m[33m/[m  Author: Icholtz <hatt23@centrum.cz>
+[33m|[m   Date:   Wed Aug 29 13:18:58 2018 +0100
+[33m|[m   
+[33m|[m       3.7 added introduction to readme
+[33m|[m 
+* [33mcommit e71546f4e40641b8a6f1fc8c1622304630dc706b[m[33m ([m[1;32mbanana[m[33m)[m
+  Author: Icholtz <hatt23@centrum.cz>
+  Date:   Wed Aug 29 12:51:58 2018 +0100
+  
+      3.7 the first commit
