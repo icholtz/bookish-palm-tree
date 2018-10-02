@@ -8,23 +8,13 @@
 <div class"ruby_umbrellas">
   <div class="row">
     <% @umbrellas.each do |umbrella| %>
-      <div class="col-sm-12 col-md-6 col-lg-4 umbrella-thumbnail">
-        <h2><%= umbrella.name %></h2>
-        <%= image_tag(umbrella.image_url, class: "img-fluid img-thumbnail")  %>
-        <p><%= umbrella.description %></p>
-        <p>Color: <%= umbrella.color %></p>
-        <p>Material: <%= umbrella.material %></p>
-        <p>Price: £<%= umbrella.price %></p>
-        <%= link_to 'Show', umbrella %>
-        <%= link_to 'Edit', edit_umbrella_path(umbrella) %>
-        <%= link_to 'Destroy', umbrella, method: :delete, data: { confirm: 'Are you sure?' } %>
-      </div>
+      <%= render partial: "shared/umbrella", locals: {umbrella: umbrella} %>
     <% end %>
   </div> <!-- end row -->
 </div><!-- end ruby_umbrellas -->
 
 <p class= "osel"> <%= @umbrellas[1].name %></p>  <!-- STILL WORKING ON IT -->
 
-<button class="btn-lg" id="rain_button">
+<button class="btn-lg">
   <%= link_to 'New Umbrella', new_umbrella_path %>
 </button>
