@@ -1,0 +1,12 @@
+<div class="row">
+  <% @orders.each do |order| %>
+    <div class="col-sm">
+      <h1>
+        Order # <%= order.id %>  
+        <%= link_to order.umbrella.name, order %>
+      </h1>
+      <p><%= order.umbrella.description %></p>
+      <strong>£ <%= order.umbrella.price %></strong>
+    </div>
+  <% end %>
+</div>

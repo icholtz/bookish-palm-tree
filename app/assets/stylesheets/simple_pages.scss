@@ -31,7 +31,7 @@ body {
   color: gold;
 }
 
-ul li:nth-of-type(4) { margin-right: 2em }
+ul li:nth-of-type(5) { margin-right: 2em }
 
 .containing_box {
   margin-left: 2em;
@@ -44,6 +44,32 @@ ul li:nth-of-type(4) { margin-right: 2em }
 .soup-image {
   border-radius: 76px;
 }
+
+.umbrella-bkg {
+  position: absolute;
+  z-index: -1;
+}
+
+.umbrellas-thumbs {
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-indicators {
+    top: 600px;
+    height: 50px;
+    border: solid black;
+}
+ol.carousel-indicators li.active {
+  background: yellow;
+}
+
+.carousel-img {
+  margin-top: 10%;
+  margin-left: 50%;
+  transform: translate(-50%, -10%);
+}
+
 
 .about_us, .contact_info {
   background: rgba(213, 165, 143, 0.7);

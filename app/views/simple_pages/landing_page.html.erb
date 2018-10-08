@@ -14,7 +14,7 @@
   <div class="carousel-inner">
     <% @umbrellas.each do |umbrella| %>
     <div class="carousel-item<%= " active" if umbrella == @umbrellas.first %>">
-      <%= image_tag(umbrella.image_url) %>
+      <%= image_tag(umbrella.image_url, class: "carousel-img") %>
       <div class="carousel-caption d-none d-md-block">
         <h5><%= umbrella.name %></h5>
       </div>
@@ -31,5 +31,3 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-=======
->>>>>>> c063a9dd79e15822f0f288b004e2f36a995390b4
