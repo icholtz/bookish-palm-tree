@@ -7,11 +7,11 @@ h1, h2 {
 }
 
 body {
-  background-image: url(cloudy.jpg);
-  background-size: center;
+  background-image: url("http://wallpapercrafter.com/uploads/posts/61547-___sitting-grass-man-and-guy-hd.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  // background-size: 100%;
 }
 
 .my_navbar {
@@ -58,7 +58,7 @@ ul li:nth-of-type(5) { margin-right: 2em }
 .carousel-indicators {
     top: 600px;
     height: 50px;
-    border: solid black;
+    // border: solid black;
 }
 ol.carousel-indicators li.active {
   background: yellow;
