@@ -3,8 +3,8 @@ class UmbrellasController < ApplicationController
 
   # GET /umbrellas
   # GET /umbrellas.json
-  def gutentag
-  end
+#  def gutentag
+#  end
   # GET /umbrellas
   # GET /umbrellas.json
   def index  # corresponds to index.html.erb in views/products folder
@@ -32,7 +32,8 @@ class UmbrellasController < ApplicationController
 
     respond_to do |format|
       if @umbrella.save
-        format.html { redirect_to @umbrella, notice: 'Umbrella was successfully created.' }
+        # format.html { redirect_to "http://pluspng.com/img-png/well-done-png-hd-wants-never-in-continuous-don-t-forget-the-s-819.png" }
+        format.html { redirect_to '/umbrellas', notice: 'A new umbrella was successfully created.' }
         format.json { render :show, status: :created, location: @umbrella }
       else
         format.html { render :new }
