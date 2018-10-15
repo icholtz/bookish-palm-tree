@@ -2,16 +2,16 @@
 
 <h1>Umbrellas</h1>
 
-<h3><%= link_to 'HELLO??', simple_pages_hello_path %></h3>
-<h3><%= link_to '¿GUTEN TAG?', umbrellas_gutentag_path %></h3>
+<h3><%#= link_to 'HELLO??', simple_pages_hello_path %></h3>
+<h3><%#= link_to '¿GUTEN TAG?', umbrellas_gutentag_path %></h3>
 
 <div class"ruby_umbrellas">
   <div class="row">
     <% @umbrellas.each do |umbrella| %>
       <%= render partial: "shared/umbrella", locals: {umbrella: umbrella} %>
     <% end %>
-  </div> <!-- end row -->
-</div><!-- end ruby_umbrellas -->
+  </div>
+</div>
 
 <p class= "osel"> <%= @umbrellas[1].name %></p>  <!-- STILL WORKING ON IT -->
 
