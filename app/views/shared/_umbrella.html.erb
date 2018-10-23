@@ -1,12 +1,19 @@
 <div class="col-sm-12 col-md-6 col-lg-4 umbrella-thumbnail">
-  <h2><%= umbrella.name %></h2>
-  <%#= image_tag("blank.jpg", class: "umbrella-bkg") %>
-  <%= image_tag(umbrella.image_url, class: "img-fluid img-thumbnail umbrellas-thumbs")  %>
-  <p><%= umbrella.description %></p>
-  <p>Color: <%= umbrella.color %></p>
-  <p>Material: <%= umbrella.material %></p>
-  <p>Price: £<%= umbrella.price %></p>
-  <%= link_to 'Show', umbrella %>
-  <%= link_to 'Edit', edit_umbrella_path(umbrella) %>
-  <%= link_to 'Destroy', umbrella, method: :delete, data: { confirm: 'Are you sure?' } %>
+  <div class="umbrella-wrapper">
+    <h2 class="umbrella-header"><%= umbrella.name %></h2>
+
+    <% if umbrella.image_url %>
+      <%= image_tag(umbrella.image_url, class: "img-fluid img-thumbnail umbrellas-thumbs")  %>
+    <% else %>
+      <%= image_tag("http://saveabandonedbabies.org/wp-content/uploads/2015/08/default.png", class: "img-fluid img-thumbnail umbrellas-thumbs")  %>
+    <% end %>
+
+    <p class="umbrella-description"><%= umbrella.description %></p>
+    <p>Color: <%= umbrella.color %></p>
+    <p>Material: <%= umbrella.material %></p>
+    <p>Price: £<%= umbrella.price %></p>
+    <%= link_to 'Show', umbrella %>
+    <%= link_to 'Edit', edit_umbrella_path(umbrella) %>
+    <%= link_to 'Destroy', umbrella, method: :delete, data: { confirm: 'Are you sure?' } %>
+  </div>
 </div>

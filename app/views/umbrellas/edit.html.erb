@@ -1,6 +1,15 @@
-<h1>Eating an mbrella</h1>
+<h1>Eating an umbrella</h1>
 
-<%= render 'form', umbrella: @umbrella %>
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      <h3>little sidebar</h3>
+    </div>
+    <div class="col-9">
+      <%= render 'form', umbrella: @umbrella %>
 
-<%= link_to 'Show', @umbrella %> |
-<%= link_to 'Back', umbrellas_path %>
+      <%= link_to 'Show', @umbrella %> |
+      <%= link_to 'Back', umbrellas_path %>
+    </div>
+  </div>
+</div>

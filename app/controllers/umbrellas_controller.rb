@@ -5,10 +5,17 @@ class UmbrellasController < ApplicationController
   # GET /umbrellas.json
 #  def gutentag
 #  end
+
   # GET /umbrellas
   # GET /umbrellas.json
-  def index  # corresponds to index.html.erb in views/products folder
-    @umbrellas = Umbrella.all
+  def index
+    if params[:q]
+      search_term = params[:q]
+      @umbrellas = Umbrella.search(search_term)
+      # return our filtered list here
+    else
+      @umbrellas = Umbrella.all
+    end
   end
 
   # GET /umbrellas/1

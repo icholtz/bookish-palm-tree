@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Umbrella.create(name: "seed-generated product", description: "I also created this product without using the HTML form!")
+
+Umbrella.create(name: "seed-generated product", description: "I also created this product without using the HTML form!", image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Breathe-face-smile.svg/220px-Breathe-face-smile.svg.png")

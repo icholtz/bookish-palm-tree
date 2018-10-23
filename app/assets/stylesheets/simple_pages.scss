@@ -1,28 +1,53 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1, h2 {
-  color: #815B28;
-  text-shadow: black 2px 1px;
+$color1: steelblue;
+$color2: #815B28;
+$font1: 'Architects Daughter', cursive;
+
+*, *:before, *:after {
+  /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+  -webkit-box-sizing: border-box;
+
+  /* Firefox (desktop or Android) 28- */
+  -moz-box-sizing: border-box;
+
+  /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-image: url("http://wallpapercrafter.com/uploads/posts/61547-___sitting-grass-man-and-guy-hd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // background-size: 100%;
+}
+
+h1, h2 {
+  // color: #815B28;
+  color: $color1;
+  text-shadow: black 2px 1px;
 }
 
 .my_navbar {
   color: #562f13;
-  background: #815B28;
+  background: $color2;
   width: 100%;
+  flex-wrap: wrap !important;
   font-family: orbitron, monda, arial, sans-serif;
   font-size: 1.25em;
+  padding-bottom: 2em;
+
 }
 
 .nav-link, .navbar-brand {
+  padding-top: 2em;
   color: #fffdd0 ;
   transition: .50s;
 }
@@ -31,30 +56,57 @@ body {
   color: gold;
 }
 
-ul li:nth-of-type(5) { margin-right: 2em }
+ul li:nth-of-type(6) { margin-right: 2em }
+
+.search-form {
+  padding-top: 2em;
+  flex: left;
+}
 
 .containing_box {
-  margin-left: 2em;
-  margin-top: 2em;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex: 1 0 auto;
 }
+
 .test_col {
   display: inline-block;
 }
 
-.soup-image {
-  border-radius: 76px;
+.soup-image { border-radius: 76px; }
+
+.umbrella-thumbnail {
+  display: flex;
 }
 
-.umbrella-bkg {
-  position: absolute;
-  z-index: -1;
+.umbrella-header {
+  margin-left: 50%;
+  transform: translate(-35%);
+}
+
+.umbrella-wrapper {
+  background-color: ghostwhite;
+  // border-radius: 10px 50px;
+  margin: auto;
 }
 
 .umbrellas-thumbs {
-  margin-top: 50%;
-  margin-left: 50%;
-  transform: translate(-50%, -50%);
+  // margin-top: 50%;
+  // margin-left: 50%;
+  // transform: translate(-50%);
+  // margin-left: 5px;
+  // margin-right: auto;
+  // margin: auto;
+  width: 478px;
+  height: 401px;
 }
+
+// .umbrella-description {
+//   background-color: grey;
+// }
+
+// **** carousel **** //
+
 .carousel-indicators {
     top: 600px;
     height: 50px;
@@ -69,7 +121,7 @@ ol.carousel-indicators li.active {
   margin-left: 50%;
   transform: translate(-50%, -10%);
 }
-
+// ***** carousel end ******//
 
 .about_us, .contact_info {
   background: rgba(213, 165, 143, 0.7);
@@ -79,17 +131,24 @@ ol.carousel-indicators li.active {
   font-size: 1.5em;
 }
 
-.greeting-product {
-  margin-left: 50%;
-  transform: translateX(-33%);
+
+.footer {
+  margin-top: 43px;
+  height: 5em;
+  // position: fixed;
+  // z-index: 60;
+  max-width: 100%;
+  background: linear-gradient(white, $color2);
+  // position: absolute;
+  bottom: 0px;
+  // width: 100%;
+  // height: 10%;
+  flex-shrink: 0;
+
 }
 
-footer {
-  background: linear-gradient(white, #815B28);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 10%;
-}
 
-.copyright { margin-top: -35px; }
+.copyright { margin-top: -65px;
+  font-family: $font1;
+  font-size: 1.5em;
+ }

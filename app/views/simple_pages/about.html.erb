@@ -5,3 +5,15 @@
   <p>Over past 10 years of cooking this one soup over and over again, we became masters at it</p>
   <p>Come and taste it for yourselves, if you don't like it, you got your money back double</P>
 </div>
+
+<%= params[:example_key].to_i * 10 %>
+
+<%= form_with(url: '/products', local: true) do |form| %>
+  Form contents
+<% end %>
+
+<form accept-charset="UTF-8" action="/products" method="post">
+  <input name="utf8" type="hidden" value="&#x2713;">
+  <input name="authenticity_token" type="hidden" value="J7CBxfHalt49OSHp27hblqK20c9PgwJ108nDHX/8Cts=">
+  Form contents
+</form>

@@ -16,3 +16,11 @@
 
  // Custom bootstrap variables must be set or imported *before* bootstrap.
  @import "bootstrap";
+
+.search-form {
+  margin-left: 0;
+}
+
+.search-button {
+  font-size: 13px;
+}
